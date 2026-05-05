@@ -1,0 +1,30 @@
+theme = "carbon"
+
+[editor]
+auto-save=true
+auto-format=true
+text-width=80
+gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
+soft-wrap.enable = true
+soft-wrap.max-indent-retain=80
+
+[editor.lsp]
+display-progress-messages = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-modification-indicator", "read-only-indicator"]
+center = ["file-name"]
+right = ["diagnostics", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
+
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 1
