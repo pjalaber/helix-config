@@ -9,6 +9,7 @@ inherits = "dracula"
 "ui.virtual.inlay-hint.type" = { fg = "purple_dim" }
 "ui.virtual.jump-label" = { fg = "purple_dim" }
 'ui.window' = { fg="grey" }
+'ui.statusline.normal' = { bg="darker" }
 
 [palette]
 background        = "#1b1926"

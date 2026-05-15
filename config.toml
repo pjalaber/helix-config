@@ -13,6 +13,7 @@ text-width=80
 gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
 soft-wrap.enable = true
 soft-wrap.max-indent-retain=80
+color-modes=true
 
 [editor.lsp]
 display-progress-messages = true
@@ -22,7 +23,7 @@ display-inlay-hints = true
 hidden = false
 
 [editor.statusline]
-left = ["mode", "spinner"]
+left = ["spinner", "mode"]
 center = ["file-modification-indicator", "read-only-indicator", "file-name"]
 right = ["diagnostics", "position", "position-percentage", "file-type"]
 mode.normal = ""
