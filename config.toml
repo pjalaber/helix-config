@@ -1,5 +1,11 @@
 theme = "nosferatu"
 
+[keys.normal]
+C-right = ['move_next_word_start', 'collapse_selection']
+C-left = ['move_prev_word_start', 'collapse_selection']
+C-up = ['page_cursor_up']
+C-down = ['page_cursor_down']
+
 [editor]
 auto-save=true
 auto-format=true
